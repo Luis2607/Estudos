@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Frontend Design Loop</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 24px;line-height:1.6;color:#161616}h1,h2{line-height:1.2}code,pre{background:#f4f4f4;border-radius:8px}pre{padding:16px;overflow:auto}.callout{border-left:4px solid #222;padding:12px 16px;background:#fafafa;margin:20px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{border:1px solid #ddd;border-radius:12px;padding:16px}@media(max-width:700px){.grid{grid-template-columns:1fr}}</style>
+</head>
+<body>
+<h1>Frontend Design Loop</h1>
+<p>Um loop de UI não substitui design. Ele reduz retrabalho ao transformar referência visual, intenção e critérios de sucesso em implementação iterativa e verificável.</p>
+<div class="callout"><strong>Regra principal:</strong> sem referência visual e sem definição de sucesso, não existe loop de design confiável.</div>
+<h2>Entradas obrigatórias</h2>
+<div class="grid">
+<div class="card"><strong>Referência visual</strong><br/>Screenshot, gravação, mockup do Figma ou produto de referência.</div>
+<div class="card"><strong>Referência comportamental</strong><br/>Cliques, hover, loading, erros, estados vazios, animações e transições.</div>
+<div class="card"><strong>Design system</strong><br/>Tokens, componentes, tipografia, espaçamento, padrões e restrições existentes.</div>
+<div class="card"><strong>Critérios de sucesso</strong><br/>O que precisa parecer, funcionar e ser validado para o trabalho ser considerado concluído.</div>
+</div>
+<h2>Fluxo operacional</h2>
+<ol>
+<li>O agente lê o cérebro do workspace e localiza apenas o contexto relevante.</li>
+<li>Analisa as referências visuais e comportamentais.</li>
+<li>Entrevista o usuário para preencher lacunas importantes.</li>
+<li>Consolida um brief de execução e critérios de sucesso.</li>
+<li>Implementa a primeira versão.</li>
+<li>Executa o app e captura evidência visual.</li>
+<li>Compara resultado e referência.</li>
+<li>Corrige a maior divergência observável.</li>
+<li>Repete até o gate de sucesso ser satisfeito ou atingir o limite do loop.</li>
+<li>Entrega comparativo antes/depois, mudanças realizadas e limitações restantes.</li>
+</ol>
+<h2>O que a entrevista deve descobrir</h2>
+<ul>
+<li>O que acontece em cada interação relevante.</li>
+<li>Quais estados precisam existir.</li>
+<li>O que deve ser adaptado da referência e o que deve permanecer próprio do produto.</li>
+<li>Quais componentes e tokens existentes devem ser reutilizados.</li>
+<li>Quais decisões são gosto pessoal e precisam de aprovação.</li>
+<li>Quais telas, breakpoints e fluxos precisam ser testados.</li>
+</ul>
+<h2>Gate de sucesso</h2>
+<pre>O loop só pode terminar quando:
+- a implementação estiver funcional;
+- os estados e interações definidos estiverem cobertos;
+- a comparação visual não mostrar divergências críticas;
+- o design system tiver sido respeitado;
+- o comportamento tiver sido verificado no navegador;
+- houver evidência visual de antes e depois;
+- limitações restantes estiverem explicitadas.</pre>
+<h2>Prompt-base</h2>
+<pre>Use o cérebro deste workspace como contexto persistente e recupere somente os arquivos relevantes para esta tarefa.
+
+Antes de implementar, analise todas as referências visuais e comportamentais fornecidas. Em seguida, entreviste-me para preencher apenas as lacunas que possam mudar materialmente a solução. Pergunte sobre estados, interações, responsividade, animações, comportamento de erro, restrições do design system e decisões de produto ainda ambíguas.
+
+Depois da entrevista, consolide internamente:
+- objetivo;
+- referência visual;
+- comportamentos esperados;
+- componentes e tokens a reutilizar;
+- critérios objetivos de sucesso;
+- riscos e decisões que precisam de aprovação.
+
+Implemente a solução e execute um loop de verificação visual e comportamental:
+1. rode a aplicação;
+2. navegue pelo fluxo;
+3. capture screenshots dos estados relevantes;
+4. compare com a referência;
+5. identifique a maior divergência;
+6. corrija;
+7. repita.
+
+Não encerre após a primeira implementação. Pare apenas quando os critérios de sucesso forem satisfeitos ou quando atingir o limite definido de iterações. Não crie componentes novos antes de verificar o design system existente.
+
+Na entrega final, mostre:
+- antes e depois;
+- mudanças implementadas;
+- estados testados;
+- divergências restantes;
+- limitações conhecidas.</pre>
+<h2>Limites</h2>
+<p>Não use esse loop para decisões puramente subjetivas sem referência, redesigns estratégicos inteiros, arquitetura de produto ou alterações irreversíveis sem aprovação humana.</p>
+</body>
+</html>
