@@ -20,6 +20,24 @@
 - [ANAC — Passageiros](https://www.gov.br/anac/pt-br/assuntos/passageiros)
   Fonte de referência para direitos do passageiro, cancelamento, reembolso, remarcação e problemas operacionais. Usar quando a estratégia de emissão envolve risco operacional.
 
+- [Choice Privileges — página oficial](https://www.choicehotels.com/choice-privileges)
+  Fonte primária para estudar Choice Hotels, pontos, Reward Nights, Points Plus Cash, elite status, Preferred Hotels & Resorts e regras de expiração.
+
+- [Marriott Bonvoy — página oficial](https://www.marriott.com/loyalty.mi)
+  Fonte primária para estudar Marriott, níveis elite, benefícios, uso de pontos, certificados, Moments e regras de marcas.
+
+- [Hilton Honors — página oficial](https://www.hilton.com/en/hilton-honors/)
+  Fonte primária para estudar Hilton, 5ª noite grátis em estadias prêmio, Points & Money, elite status, upgrades e food & beverage credit.
+
+- [World of Hyatt — Free Nights & Upgrades](https://world.hyatt.com/content/gp/en/rewards/free-nights-upgrades.html)
+  Fonte primária para estudar award chart, categorias, baixa/alta temporada, quartos standard, suítes, upgrades e sweet spots.
+
+- [IHG One Rewards — página oficial](https://www.ihg.com/onerewards/content/us/en/home)
+  Fonte primária para estudar IHG, Reward Nights, Milestone Rewards, upgrades, lounge, marcas e compra/transferência de pontos.
+
+- [ALL Accor — página oficial](https://all.accor.com/loyalty-program/reasonstojoin/index.en.shtml)
+  Fonte primária para estudar Accor, lógica de Reward Points como desconto, status, ALL Plus e hotéis fortes no Brasil/Europa.
+
 ## Wisdom (Communities)
 
 - Comunidades/grupos de promoções de milhas a definir depois de filtrar qualidade.
@@ -30,3 +48,5 @@
 - Falta selecionar 3 a 5 comunidades brasileiras de alto sinal, com moderação boa e pouco hype.
 - Falta montar uma planilha-padrão de cálculo de valor por milheiro, custo efetivo da emissão e comparação contra tarifa em dinheiro.
 - Falta mapear cartões adequados ao perfil real de gasto do usuário.
+- Falta montar uma matriz de hotéis por destino: dinheiro vs pontos vs portal bancário vs OTA vs pontos de hotel.
+- Falta estudar transferências entre bancos brasileiros e programas de hotel, incluindo quando não compensa.
